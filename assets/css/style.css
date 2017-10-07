@@ -48,6 +48,14 @@
 	z-index: 2;
 }
 
+#ph {
+	display: block;
+	position: absolute;
+	top: 30%;
+	left: 14%;
+	font-size: 50px;
+}
+
 footer {
 	background-color: grey;
 	text-align: center;
