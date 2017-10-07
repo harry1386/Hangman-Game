@@ -35,6 +35,17 @@
 	margin-right: auto;
 	border-left: 10px solid #9932CC;
 	border-right: 10px solid #9932CC;
+	z-index: 1;
+}
+
+.game {
+	width: 670px;
+	height: 444px;
+	color: yellow;
+	position: absolute;
+	top: 39%;
+	left: 25%;
+	z-index: 2;
 }
 
 footer {
