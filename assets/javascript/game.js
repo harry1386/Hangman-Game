@@ -54,6 +54,15 @@ document.onkeyup = function(event){
 		document.getElementById("counter").innerHTML = triesCounter;
 	}
 
+var displayedAnswer = [];
+for (var i = 0; i < arrayWd.length; i++) {
+	if (arrayWd.charAt[i] !=' ') {
+		displayedAnswer.push('_');
+	}
+	else{
+	displayedAnswer.push(' ');
+	}
+}
 
 
 
